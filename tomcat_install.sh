@@ -13,10 +13,10 @@ sudo wget --no-check-certificate https://dlcdn.apache.org/tomcat/tomcat-10/v10.1
 sudo unzip apache-tomcat-10.1.12-windows-x64.zip
 
 #Delete the zip files
-sudo rm -rf apache-tomcat-10.1.12
+sudo rm -rf apache-tomcat-10.1.12-windows-x64.zip
 
 #Rename the extracted files
-sudo mv apache-tomcat-10.1.12 tomcat
+sudo mv apache-tomcat-10.1.12-windows-x64.zip
 
 #Set permission for tomcatr directory
 sudo chmod 777 -R /opt/tomcat
