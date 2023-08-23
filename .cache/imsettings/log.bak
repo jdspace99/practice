@@ -1,0 +1,28 @@
+[ 1692754867.202441]: IMSettings-Daemon[2287]: INFO: Starting imsettings-daemon...
+[ 1692754867.202546]: IMSettings-Daemon[2287]: INFO:   [HOME=/home/claire/.config/imsettings]
+[ 1692754867.202573]: IMSettings-Daemon[2287]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
+[ 1692754867.202618]: IMSettings-Daemon[2287]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
+
+[ 1692754867.202643]: IMSettings-Daemon[2287]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
+
+[ 1692754867.202666]: IMSettings-Daemon[2287]: INFO:   [MODULES=gsettings]
+
+imsettings information
+==========================
+XINPUTRC: N/A
+Is DBus enabled: yes
+Is imsettings enabled: yes
+Is GTK+ supported: yes
+Is Qt supported: no
+DESKTOP: gnome-classic
+GUESS_DESKTOP: $GDMSESSION
+DISABLE_IMSETTINGS: 
+IMSETTINGS_DISABLE_DESKTOP_CHECK: 
+DBUS_SESSION_BUS_ADDRESS: unix:abstract=/tmp/dbus-O9CRbWvlok,guid=10d78c11eb10153b08a35f3e64e563b3
+GTK_IM_MODULE: 
+QT_IM_MODULE: 
+XMODIFIERS: 
+IMSETTINGS_MODULE: none
+IMSETTINGS_INTEGRATE_DESKTOP: yes
+
+org.gnome.SettingsDaemon.Keyboard.desktop exists. imsettings is going to be disabled.
