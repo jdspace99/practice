@@ -22,8 +22,8 @@ sudo mv apache-tomcat-10.1.12 tomcat
 sudo chmod 777 -R /opt/tomcat
 
 #Create a service link to start and stop tomcat
-sudo ln -s /opt/tomcat/bin/startup.sh     /usr/bin/tomcat
-sudo ln -s /opt/tomcat/bin/shutdown.sh     /usr/bin/tomcat
+sudo ln -s /opt/tomcat/bin/startup.sh     /usr/bin/starttomcat
+sudo ln -s /opt/tomcat/bin/shutdown.sh     /usr/bin/stoptomcat
 
 #Enable and stat tomcat
 sudo systemctl enable tomcat
