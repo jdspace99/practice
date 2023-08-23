@@ -16,7 +16,7 @@ sudo unzip apache-tomcat-10.1.12-windows-x64.zip
 sudo rm -rf apache-tomcat-10.1.12-windows-x64.zip
 
 #Rename the extracted files
-sudo mv apache-tomcat-10.1.12-windows-x64.zip
+sudo mv apache-tomcat-10.1.12 tomcat
 
 #Set permission for tomcatr directory
 sudo chmod 777 -R /opt/tomcat
