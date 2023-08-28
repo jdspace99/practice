@@ -7,7 +7,7 @@ sudo yum install java-11-openjdk-devel -y
 cd /opt
 
 #Download maven from web
-sudo wget --no-check-certificate https://dlcdn.apache.org/maven/maven-3/3.9.4/binaries/apache-maven-3.9.4-bin.zip
+sudo wget https://dlcdn.apache.org/maven/maven-3/3.9.4/binaries/apache-maven-3.9.4-bin.zip
 
 #Extract the zip file
 sudo unzip apache-maven-3.9.4-bin.zip
